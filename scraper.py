@@ -5,4 +5,6 @@ req = requests.get("https://www.geeksforgeeks.org/")
 
 soup = BeautifulSoup(req.content, "html.parser")
 
-print(soup.prettify())
+res = soup.title
+
+print(res.get_text())
