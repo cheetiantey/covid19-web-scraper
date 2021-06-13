@@ -8,4 +8,7 @@ pip3 install requests
 pip3 install BeautifulSoup
 pip3 install texttable
 ```
-Run `python3 scraper.py`
+Run:
+```
+python3 scraper.py
+```
