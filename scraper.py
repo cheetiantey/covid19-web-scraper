@@ -1,4 +1,4 @@
-# Scrapes the Covid-19 data from "https://www.worldometers.info/"
+# Scrapes Covid-19 data from "https://www.worldometers.info/"
 # and prints out the data sorted(in descending order) according to the number of cases.
 import requests
 from bs4 import BeautifulSoup
