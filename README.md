@@ -1,4 +1,4 @@
-# web-scraper
+# covid19-web-scraper
 
 ## Usage
 Install Python 3 and then use `pip3` to install the following packages:
