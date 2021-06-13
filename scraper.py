@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import texttable as tt
 table = tt.Texttable()
 
-url = 'https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/'
+url = "https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/"
 
 page = requests.get(url)
 soup = BeautifulSoup(page.text, 'html.parser')
@@ -28,7 +28,7 @@ while True:
 			continent
 		))
 
-    # Break when there's no more result
+    	# Break when there's no more result
 	except StopIteration:
 		break
 
